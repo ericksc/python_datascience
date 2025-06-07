@@ -1,0 +1,43 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: postgres_ds
+    restart: always
+    environment:
+      POSTGRES_USER: dsuser
+      POSTGRES_PASSWORD: dspassword
+      POSTGRES_DB: dsdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  timescaledb:
+    image: timescale/timescaledb:latest-pg15
+    container_name: timescaledb
+    restart: always
+    environment:
+      POSTGRES_USER: dsuser
+      POSTGRES_PASSWORD: dspassword
+      POSTGRES_DB: dsdb
+    ports:
+      - "5433:5432"
+    volumes:
+      - tsdata:/var/lib/postgresql/data
+
+  jupyter:
+    image: jupyter/scipy-notebook:latest
+    container_name: jupyter_ds
+    restart: always
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/home/jovyan/work
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    depends_on:
+      - timescaledb
+
+volumes:
+  pgdata:
+  tsdata:
