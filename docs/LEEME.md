@@ -1,6 +1,6 @@
 # Aula Datos · Curso de Python para ciencia de datos
 
-22 sesiones de 2 h 30 min (55 horas), más 16.5–22 horas de tareas y 18–27 horas para seis retos de badge. Nivel inicial.
+28 sesiones de 2 h 30 min (70 horas), más 21–28 horas de tareas y 20–30 horas para seis retos de badge. Nivel inicial.
 
 Abre index.html para consultar el aula sin conexión (las fuentes externas son opcionales). El código se ejecuta en los notebooks, no dentro de la página. Extrae el ZIP antes de usarlo. La autoevaluación web es formativa y no almacena ni envía notas.
 
@@ -12,15 +12,11 @@ Prácticas y tareas 40 %; dos pruebas de aplicación 20 %; proyecto final 40 %. 
 
 Los notebooks iniciales del material anterior sirvieron de referencia y se ampliaron. No se modificaron los originales. Los datos del proyecto son sintéticos y contienen anomalías intencionales.
 
-## Seis badges
+## Ruta por badges
 
-1. **Fundamentos de Python y Jupyter**: sesiones 1–4, 10 horas.
-2. **Series y DataFrames**: sesiones 5–6, 5 horas.
-3. **Agrupamiento de datos**: sesiones 7–8, 5 horas.
-4. **Manipulación de datos**: sesiones 9–12, 10 horas.
-5. **Procesamiento de datos en Python**: sesiones 13–17, 12,5 horas.
-6. **Visualización de datos**: sesiones 18–22, 12,5 horas.
-
-Los tres primeros retos duran 2–3 horas cada uno; los tres últimos, 4–6 horas. Acreditación propuesta: actividades entregadas y al menos 80/100 en cada reto, con revisión docente. La web no emite ni registra credenciales automáticamente.
-
-Los ejemplos Plotly incluyen una biblioteca local. Extrae el paquete completo antes de abrir index.html.
+- Badge 1: Fundamentos de Python y Jupyter; módulos 1–4; 10.0 horas.
+- Badge 2: Pandas básico · catálogo de películas; módulos 5–8; 10 horas.
+- Badge 3: Pandas intermedio y análisis aplicado; módulos 9–14; 15 horas.
+- Badge 4: Manipulación de datos; módulos 15–19; 12.5 horas.
+- Badge 5: Procesamiento de datos en Python; módulos 20–23; 10.0 horas.
+- Badge 6: Visualización de datos; módulos 24–28; 12.5 horas.

@@ -1,0 +1,13 @@
+ID_Producto,Fecha,Producto,Categoria,Precio,Cantidad
+P01,2026-09-01,Mouse,Accesorios,15,3
+P02,2026-09-01,Teclado,Accesorios,25,2
+P03,2026-09-02,Monitor,Pantallas,200,1
+P04,2026-09-02,Cable,Accesorios,5,10
+P05,2026-09-03,Audifonos,Audio,,4
+P01,2026-09-03,Mouse,Accesorios,15,6
+P03,2026-09-04,Monitor,Pantallas,200,5
+P06,2026-09-04,Parlante,Audio,50,8
+P04,2026-09-05,Cable,Accesorios,5,2
+P02,2026-09-05,Teclado,Accesorios,25,10
+P01,2026-09-01,Mouse,Accesorios,15,3
+P07,2026-09-06,Adaptador,Accesorios,10,7
