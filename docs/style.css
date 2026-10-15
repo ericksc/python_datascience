@@ -17,3 +17,12 @@
 .step-result{margin-top:18px;padding:18px;border:1px solid #bfddd1;border-radius:10px;background:#edf7f1}.step-result h4{margin:0 0 12px;color:#245541;font-size:14px}.walkthrough-step .step-result pre{background:#fff!important;color:#17372c!important;border:1px solid #d8e8df;border-radius:8px;white-space:pre;overflow:auto;margin:0;font-size:13px!important;line-height:1.65!important}
 
 .jupyter-table{border-collapse:collapse;width:auto;min-width:55%;font:14px system-ui;background:white;color:#202830}.jupyter-table th,.jupyter-table td{padding:9px 14px;border:0;text-align:right}.jupyter-table thead{border-bottom:1px solid #aeb9c0}.jupyter-table tbody tr:nth-child(odd){background:#f3f5f7}.jupyter-table tbody tr:hover{background:#e4f1fb}.jupyter-output{overflow:auto;background:white}.cell-prompt{display:block;color:#537ca0;font:13px monospace;margin:10px 0}.silent-cell,.series-meta{font-size:13px;color:#61717e}.jupyter-output .cell-prompt{color:#a3633b}
+
+/* Section pages: a consistent entry point for every badge and session. */
+.breadcrumbs{display:flex;flex-wrap:wrap;gap:8px;font-size:13px;color:var(--muted);margin-bottom:20px}
+.section-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:24px 0 28px}
+.section-card{display:flex;flex-direction:column;gap:9px;padding:18px;border:1px solid var(--line);border-radius:10px;background:white;text-decoration:none;color:var(--ink);min-width:0}
+.section-card:hover{border-color:var(--teal);background:#f1f7f4}.section-card.active{border:2px solid var(--teal);padding:17px;background:#edf5f0}
+.section-card-title{font-weight:700;font-size:16px;line-height:1.35}.section-card>span:last-child:not(.section-card-title){font-size:13px;color:var(--muted);line-height:1.5}
+.section-number{font-size:12px;font-weight:700;color:var(--teal)}.lesson-cards{grid-template-columns:1fr;margin-bottom:0}.lesson-picker{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px}.lesson-picker a{background:white;border:1px solid var(--line);padding:8px 12px;border-radius:6px;font-size:13px;text-decoration:none}.lesson-picker a[aria-current]{border-color:var(--teal);background:#edf5f0;font-weight:700}.aside-card h2{font-size:1rem;margin:0 0 12px}.badge-nav.active{color:white;background:#203047;border-radius:5px}main:focus{outline:none}
+@media(max-width:480px){.section-grid{grid-template-columns:1fr 1fr}.session-sections{grid-template-columns:1fr}.lesson-cards{grid-template-columns:1fr}.section-card{padding:14px}.section-card.active{padding:13px}}

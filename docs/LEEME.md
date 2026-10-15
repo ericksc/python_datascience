@@ -20,3 +20,10 @@ Los notebooks iniciales del material anterior sirvieron de referencia y se ampli
 - Badge 4: Manipulación de datos; módulos 15–19; 12.5 horas.
 - Badge 5: Procesamiento de datos en Python; módulos 20–23; 10.0 horas.
 - Badge 6: Visualización de datos; módulos 24–28; 12.5 horas.
+
+
+## Navegación · versión 1.4.0
+
+Las tarjetas superiores de cada badge abren páginas distintas para sesiones, ruta, evidencias, reto y materiales. Cada lección tiene su propia dirección. Consulta la revisión en REVISION_COHERENCIA.md.
+
+La Prueba corta II vigente se descarga desde los materiales del badge 3. Incluye el caso hotelero y reemplaza la descripción anterior de la prueba después de la sesión 13. Fechas, ponderaciones y condiciones oficiales: según el docente en TEC Digital.
